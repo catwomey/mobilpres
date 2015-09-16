@@ -1,0 +1,32 @@
+Cross Platform libraries
+with GOMobile
+13 Sep 2015
+
+Chester Twomey
+Software Developer, Protegra
+chester.twomey@protegra.com
+http://protegra.com
+http://codingvelocity.com
+@codingvelocity
+
+* Why use Go?
+
+- Designed for concurrency
+- Simple language
+- Full stack capable
+- Active community
+- Mature standard library
+
+
+* Ways to use GOMobile
+
+.image doc.png _ 100
+
+As a library
+
+The GoMobile tool can generate JNI Bindings for Android or a shared archive file for iOS.
+
+As a full application
+
+Go code can be compiled as a library usable by iOS and Android or you can write an app entirely in Go using OpenGL for the interface
+
