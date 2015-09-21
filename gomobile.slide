@@ -30,3 +30,36 @@ As a full application
 
 Go code can be compiled as a library usable by iOS and Android or you can write an app entirely in Go using OpenGL for the interface
 
+
+* How to install gomobile
+
+To install gomobile run the following command:
+
+```
+go get golang.org/x/mobile/cmd/gomobile
+gomobile init
+```
+
+This installs the Android compiler toolchain and the gomobile binary
+
+* OpenGL DEMO
+
+Run the following commands
+
+```
+ gomobile install golang.org/x/mobile/example/basic
+ gomobile install golang.org/x/mobile/example/audio
+ gomobile install golang.org/x/mobile/example/sprite
+```
+
+* Android Library Demo
+
+The following code uses the standard random go library to generate a random number
+
+.code CrossPlatformLib/main.go
+
+Running the following code will generate an .aar file to include in android studio
+
+```
+gomobile install
+```

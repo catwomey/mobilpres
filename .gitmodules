@@ -1,0 +1,3 @@
+[submodule "CrossPlatformLib"]
+	path = CrossPlatformLib
+	url = https://github.com/ctwomey1/CrossPlatformLib.git
